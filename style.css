@@ -5,6 +5,74 @@ body {
 	color: #4c4d4d;
 }
 
+.language-switcher {
+	position: fixed;
+	top: 35%;
+	right: -100px;
+	z-index: 2000;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 100px;
+	background-color: #fff;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+	padding: 5px 0;
+	transition: all 0.7s ease;
+}
+
+.slide {
+	right: 0;
+}
+
+.language-switcher .flag-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	background-color: inherit;
+	cursor: pointer;
+	transition: all ease 0.5s;
+	color: #000;
+}
+
+.language-switcher .flag-box:hover {
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.435) !important;
+	background-color: #000;
+	color: #fff !important;
+}
+
+.flag-box a {
+	color: inherit;
+}
+
+.flag-box p {
+	margin: 0;
+	font-weight: 600;
+}
+
+.flag-box img {
+	width: 25px;
+	height: 25px;
+}
+
+.language-picker {
+	position: absolute;
+	top: 0%;
+	right: 100px;
+	padding: 0;
+	width: 40px;
+	height: 40px;
+	border: none;
+	color: #fff;
+	font-size: 1.25rem;
+	background-color: #555;
+	border-radius: 4px 0px 0px 4px;
+	z-index: 2000;
+	cursor: pointer;
+	outline: none;
+}
+
 .back-to-top {
 	position: fixed;
 	bottom: 8px;
@@ -106,7 +174,7 @@ nav {
 }
 
 .logo {
-	width: 50%;
+	width: 45%;
 	display: flex;
 	align-items: center;
 }

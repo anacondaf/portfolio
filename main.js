@@ -40,3 +40,11 @@ function scrollToTop() {
 		behavior: "smooth",
 	});
 }
+
+// LANGUAGE SWITCHER
+let languagePicker = document.querySelector(".language-picker");
+let languageSwitcher = document.querySelector(".language-switcher");
+
+languagePicker.addEventListener("click", () => {
+	languageSwitcher.classList.toggle("slide");
+});

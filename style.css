@@ -172,7 +172,7 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
-	padding-left: 15px;
+	padding: 0 20px;
 	height: 100%;
 	background-color: #111418;
 }
@@ -189,6 +189,10 @@ nav {
 	font-weight: 450;
 }
 
+.social-media li {
+	margin: 0 15px;
+}
+
 .social-media-mobile {
 	padding: 0;
 	margin: 0 0 0 auto;
@@ -199,7 +203,6 @@ nav {
 
 .social-media-desktop {
 	display: none;
-	padding: 0;
 	margin: 0 0 0 auto;
 	align-items: center;
 	list-style-type: none;
@@ -247,7 +250,7 @@ nav {
 
 .hamburger-menu {
 	width: 24px;
-	height: 28px;
+	height: 24px;
 	margin: 18px 15px 18px 28px;
 	display: flex;
 	flex-direction: column;
